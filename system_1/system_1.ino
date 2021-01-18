@@ -20,7 +20,7 @@ constexpr uint8_t servoPin = 8;
 constexpr uint8_t buzzerPin = 5;
 
 char initial_password[4] = {'1', '2', '3', '4'};  // Variable to store initial password
-String tagUID = "xx xx xx xx";  // String to store UID of tag. Change it with your tag's UID
+String tagUID = "0A 6C A4 7F";  // String to store UID of tag. Change it with your tag's UID
 char password[4];   // Variable to store users password
 boolean RFIDMode = false; // boolean to change modes
 boolean NormalMode = true; // boolean to change modes
