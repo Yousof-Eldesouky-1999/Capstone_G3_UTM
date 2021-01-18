@@ -594,7 +594,6 @@ void setup() {
 }
 
 void loop() {
-  while ( inputPin == HIGH){
   if (pirStat == HIGH) {
     
   captureImg(320, 240);
